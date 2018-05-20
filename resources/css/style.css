@@ -12,11 +12,12 @@ body {margin: 0;
     text-align: center;
   }
 
-#headerwbackground {display: flex;
-    backgroundimage: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.pnghttps://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-      align-items: center;
-      width: 960px;
-      height: 30rem;
+#headerwbackground {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.pnghttps://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    width: 960px;
+    height: 30rem;
     }
 
 header  {
@@ -25,6 +26,7 @@ header  {
         color: white;
         font-family: Helvetica;
         font-size: 1rem;
+        align-items: center;
 }
 
 .content {display: flex;
@@ -34,7 +36,6 @@ header  {
 .logo {display: flex;
     align-items: center;
     flex-grow: 1;
-
   }
 
 .logo img {
@@ -59,3 +60,39 @@ a {color: seashell;
 #services, #product, #content {
 
 }
+
+#mission {display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  font-size: 22px;
+  height: 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background-color: white;
+}
+
+#mission .jaroftea {
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 1200px;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 1.2rem;
+  color: black;
+  opacity: 0.9;
+  display: block;
+}
+
+h2  {
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+    padding: 1.5rem 5rem;
+    text-align: center;
+  }
