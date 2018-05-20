@@ -1,0 +1,55 @@
+html, body {height: 100%
+    font-size: 18px;
+}
+
+body {margin: 0;
+    color: white;
+    display: block;
+    font-family: Helvetica;
+    font-size: 18px;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+  }
+
+  headerwbackground {display: flex;
+    backgroundimage: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.pnghttps://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+      align-items: center;
+      position: fixed;
+      z-indez: 1;
+      width: 960px;
+      height: 30rem;
+    }
+
+.content {display: flex;
+    flex-direction: column;
+  }
+
+.logo {display: flex;
+    align-items: center;
+    flex-grow: 1;
+
+  }
+
+.logo img {
+        height: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 1rem;
+        height: 1.5rem;
+  }
+
+.logo span {color: seashell;
+}
+
+nav span {display: inline-block;
+  text-decoration: underline;
+  color: seashell;
+}
+
+a {color: seashell;
+  padding: 10px;
+}
+
+#services, #product, #content {
+
+}
