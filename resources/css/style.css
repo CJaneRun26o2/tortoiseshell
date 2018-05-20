@@ -12,15 +12,12 @@ body {
     text-align: center;
   }
 
-#headerwbackground {
+header  {
     display: flex;
-    flex-direction: column;
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.pnghttps://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
     width: 960px;
     height: 30rem;
-    }
-
-header  {
+    flex-direction: column;
     padding-top: 1rem;
     background-color: cadetblue;
     color: white;
