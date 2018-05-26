@@ -48,6 +48,7 @@ nav span {
   display: inline-block;
   color: white;
   padding: 1rem 2rem 1rem 2rem;
+  float: right;
 }
 
 a {
