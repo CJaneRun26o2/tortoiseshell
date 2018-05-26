@@ -11,9 +11,12 @@ body {margin: 0;
     text-align: center;
   }
 
-header {
-
-}
+  header {
+      display: flex;
+      align-items: center;
+      z-indez: 1;
+      width: 100%;
+    }
 
 .top_container {
     display: flex;
@@ -45,7 +48,6 @@ nav span {
   display: inline-block;
   color: white;
   padding: 1rem 2rem 1rem 2rem;
-  justify-content: flex-end;
 }
 
 a {
