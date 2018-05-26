@@ -12,7 +12,7 @@ body {margin: 0;
   }
 
 header {
-  
+
 }
 
 .top_container {
@@ -28,16 +28,14 @@ header {
     background-color: cadetblue;
 }
 
-.logo {display: flex;
+.logo {
+    display: flex;
     align-items: center;
-    flex-grow: 1;
-    padding-left: 4rem 1rem 4rem 4rem;
   }
 
 .logo img {
     height: 1.5rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
+    padding: 1rem 1rem 1rem 2rem;
   }
 
 .logo span {
